@@ -1,0 +1,57 @@
+/* Color palette 
+#F7A4A4
+#FEBE8C
+#FFFBC1
+#B6E2A1
+*/
+
+body {
+  background-color: #FFFBC1;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for headers */
+
+.header {
+  font-family:Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+  color: #F7A4A4;
+  font-size: 42px;
+  font-weight: 1000;
+}
+
+h2 {
+  background-color: #FEBE8C;
+  color: white;
+}
+
+/* Styles for unordered and ordered lists */
+
+ul, ol {
+  line-height: 2;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.recipe-list li,
+.recipe-ingredients li,
+.recipe-steps li {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #FFFBC1;
+}

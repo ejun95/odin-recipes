@@ -7,7 +7,18 @@
 
 body {
   background-color: #FFFBC1;
+}
+
+/* Card styling */
+.card-row {
   text-align: center;
+}
+
+.card {
+  background-color: white;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
 }
 
 p {
@@ -16,21 +27,58 @@ p {
 }
 
 /* Styles for headers */
+.page-header {
+  border-bottom: 1px solid #F7A4A4;
+  padding-bottom: 50px;
+  margin: 25px ;
+  text-align: center;
+}
 
 .header {
   font-family:Helvetica, sans-serif;
   text-shadow: 1px 1px 2px black;
+  text-align: center;
+  display: inline;
+  padding-bottom: 10px;
+  vertical-align: middle;
 }
 
 h1 {
   color: #F7A4A4;
-  font-size: 42px;
+  font-size: 56px;
   font-weight: 1000;
 }
 
-h2 {
+/* h2 {
   background-color: #FEBE8C;
   color: white;
+} */
+
+.recipes-header {
+  vertical-align: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipe-header-text {
+  font-size: 36px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.icon {
+  display: inline;
+  vertical-align: middle;
+}
+
+.icon-header {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-recipe {
+  width: 50px;
+  height: 50px;
 }
 
 /* Styles for unordered and ordered lists */

@@ -7,6 +7,8 @@
 
 body {
   background-color: #FFFBC1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 /* Card styling */
@@ -15,7 +17,8 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: #B6E2A1;
+  border-radius: 10px;
   display: inline-block;
   padding: 0;
   margin: 10px;
@@ -23,24 +26,15 @@ body {
 
 p {
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Styles for headers */
 .page-header {
+  text-shadow: 1px 1px 2px black;
   border-bottom: 1px solid #F7A4A4;
   padding-bottom: 50px;
   margin: 25px ;
   text-align: center;
-}
-
-.header {
-  font-family:Helvetica, sans-serif;
-  text-shadow: 1px 1px 2px black;
-  text-align: center;
-  display: inline;
-  padding-bottom: 10px;
-  vertical-align: middle;
 }
 
 h1 {
@@ -49,10 +43,12 @@ h1 {
   font-weight: 1000;
 }
 
-/* h2 {
-  background-color: #FEBE8C;
-  color: white;
-} */
+.container-header {
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
 
 .recipes-header {
   vertical-align: center;
@@ -65,6 +61,8 @@ h1 {
   display: inline;
   vertical-align: middle;
 }
+
+/* For icons */
 
 .icon {
   display: inline;
@@ -81,22 +79,46 @@ h1 {
   height: 50px;
 }
 
+.container {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container-text {
+  text-align: left;
+  margin: 10px auto;
+  max-width: 800px;
+  word-wrap: break-word;
+  line-height: 1.2em;
+}
+
 /* Styles for unordered and ordered lists */
 
+.container ul, .container ol {
+  display: inline-block;
+}
+
 ul, ol {
-  line-height: 2;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
   list-style-position: inside;
 }
 
-ul {
-  list-style-type: none;
+.container ul {
+  list-style-type:circle;
 }
 
 .recipe-list li,
 .recipe-ingredients li,
 .recipe-steps li {
-  font-family:Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  word-wrap: break-word;
+
   font-size: 18px;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 a {

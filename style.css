@@ -8,13 +8,21 @@ body {
   text-align: center;
 }
 
-.title {
-  font-size: 52px;
-  padding: 20px 0;
+.title,
+.subtitle {
+  margin-bottom: 50px;
+  padding-bottom: 25px;
   border-bottom: 1px solid lightgray;
 }
 
-ul {
+.title {
+  font-size: 52px;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recipe-card-list  ul {
   list-style: none;
 }
 
@@ -44,9 +52,46 @@ ul {
   margin-bottom: 10px;
 }
 
-img {
+.card-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+}
+
+/* ---------- Separating main page from recipe pages css ---------- */
+
+ol,
+ul {
+  list-style-position: inside;
+  text-align: left;
+  display: inline-block;
+}
+
+.recipe-img {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 32px;
+}
+
+.recipe {
+  font-size: 24px;
+  margin: 50px auto;
+  width: 600px;
+}
+
+.recipe-steps ol {
+  width: 400px;
+}
+
+.recipe li {  
+  margin-bottom: 20px;
+}
+
+.home {
+  margin-bottom: 15px;
 }

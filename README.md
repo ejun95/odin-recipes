@@ -1,5 +1,9 @@
 # Odin Recipes
 
+__All Recipes are referenced from [AllRecipes](https://www.allrecipes.com/)__
+
+### View the web page [here](https://ejun95.github.io/odin-recipes/)
+
 ## About
 This project is a website I built following along _The Odin Project_ on [HTML Foundations](https://www.theodinproject.com/lessons/foundations-recipes).
 
@@ -10,6 +14,7 @@ The skills I will demonstrate in this project are:
       - Create an _ordered_ and *unordered* list
       - Create [Links](https://www.theodinproject.com/lessons/foundations-links-and-images) and Images 
       - General text elements
+    
   - Git 
     - Used Git commands to manage my project
     ```
@@ -20,4 +25,9 @@ The skills I will demonstrate in this project are:
     git push origin main
     ```
 
-__All Recipes are referenced from [AllRecipes](https://www.allrecipes.com/)__
+  - (NEW) CSS
+    - Used CSS to style the webpages using
+      - Class selectors
+      - Type selectors
+    - _Note_ that this is before i learned flexbox so the webpage isnt
+      as responsive as I'd like
